@@ -17,4 +17,9 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
   <li>Criar um arquivo para realizar a conexão com um banco relacional e passar os valores das variáveis de ambiente.</li>
 </ol>
 
-<p>Link para o projeto frontend:<a href="#">Frontend</a> </p>
+<p>Link para o projeto frontend: <a href="#">Frontend</a> </p>
+
+<strong>Modelagem de Dados</strong>
+<p>
+  ![MER](https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00)
+</p>

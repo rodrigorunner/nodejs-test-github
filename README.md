@@ -1,4 +1,4 @@
-Problema 
+<h1>Problema</h1> 
 
 <strong>Desenvolver um projeto utilizando React no front-end e Node.js no back-end com a finalidade de que seja possível listar,
 visualizar, criar, editar e excluir animais de estimação de uma petshop.</strong>
@@ -27,5 +27,5 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
   https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00
 </p>
 <p>
-  Obs: atráves do modelo entidade relacionamento é possível criar as tabelas e os relacionamentos.
+  Obs: <i>atráves do modelo <strong>entidade relacionamento</strong> é possível criar as tabelas e os relacionamentos.</i>
 </p>

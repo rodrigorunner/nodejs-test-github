@@ -15,7 +15,12 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
   <li>Criar um arquivo .env para configurar o ambiente</li>
   <li>No arquivo .env passar os valores: NODE_ENV, PORT, PGUSER, PGPORT, PGPASSWORD, PGHOST, PGDATABASE</li>
   <li>Criar um arquivo para realizar a conexão com um banco relacional e passar os valores das variáveis de ambiente.</li>
+  <li>Criar as tabelas do banco de dados e os seus relacionamentos</li>
 </ol>
+
+<p>
+  Obs: <i>atráves do modelo <strong>entidade relacionamento</strong> é possível criar as tabelas e os relacionamentos.</i>
+</p>
 
 <p>Link para o projeto frontend: <a href="#">Frontend</a> </p>
 
@@ -26,6 +31,4 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
 <p>
   https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00
 </p>
-<p>
-  Obs: <i>atráves do modelo <strong>entidade relacionamento</strong> é possível criar as tabelas e os relacionamentos.</i>
-</p>
+

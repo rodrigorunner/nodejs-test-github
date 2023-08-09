@@ -11,11 +11,11 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
 
 <strong>Instalação</strong>
 <ol>
-  <li>Clonar o projeto na máquina local.</li>
-  <li>Criar um arquivo .env para configurar o ambiente</li>
-  <li>No arquivo .env passar os valores: NODE_ENV, PORT, PGUSER, PGPORT, PGPASSWORD, PGHOST, PGDATABASE</li>
-  <li>Criar um arquivo para realizar a conexão com um banco relacional e passar os valores das variáveis de ambiente.</li>
-  <li>Criar as tabelas do banco de dados e os seus relacionamentos</li>
+  <li>Clonar o projeto na máquina local;</li>
+  <li>Criar um arquivo .env para configurar o ambiente;</li>
+  <li>No arquivo .env passar os valores: NODE_ENV, PORT, PGUSER, PGPORT, PGPASSWORD, PGHOST, PGDATABASE;</li>
+  <li>Criar um arquivo para realizar a conexão com um banco relacional e passar os valores das variáveis de ambiente;</li>
+  <li>Criar as tabelas do banco de dados e os seus relacionamentos.</li>
 </ol>
 
 <p>

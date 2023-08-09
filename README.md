@@ -22,7 +22,7 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
   Obs: <i>atráves do modelo <strong>entidade relacionamento</strong> é possível criar as tabelas e os relacionamentos.</i>
 </p>
 
-<p>Link para o projeto frontend: [![FRONTEND](https://img.shields.io/badge/HTML-ff0000?style=for-the-badge&logo=html5&logoColor=white)]()
+<p>Link para o projeto frontend:
 
 <strong>Modelagem Entidade Relacionamento</strong>
 <p>

@@ -21,5 +21,5 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
 
 <strong>Modelagem de Dados</strong>
 <p>
-  (https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00)
+  https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00
 </p>

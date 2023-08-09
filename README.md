@@ -20,7 +20,9 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
 <p>Link para o projeto frontend: <a href="#">Frontend</a> </p>
 
 <strong>Modelagem Entidade Relacionamento</strong>
-<small>Imagem do MER</small>
+<p>
+  <strong>Imagem do MER</strong>
+</p>
 <p>
   https://github.com/rodrigorunner/nodejs-test-github/assets/55710562/47c4c6e5-b69e-4968-8ccc-ceb898dfcf00
 </p>

@@ -14,7 +14,7 @@ visualizar, criar, editar e excluir animais de estimação de uma petshop.</stro
   <li>Clonar o projeto na máquina local;</li>
   <li>Rodar o comando <strong>npm install</strong> para instalar às dependências do projeto;</li>
   <li>Renomear o arquivo <i>".env-bkp"</i> para <i>".env"</i> e passar os valores de cada variável;</li>
-  <li>Dentro do diretório <strong>config/<strong> existe um arquivo <i>"query.sql"</i> com os códigos (tabelas e consultas) SQL.</li>
+  <li>Dentro do diretório <strong>config</strong> existe um arquivo <i>"query.sql"</i> com os códigos (tabelas e consultas) SQL.</li>
 </ol>
 
 <p>

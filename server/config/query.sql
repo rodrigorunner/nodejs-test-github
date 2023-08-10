@@ -1,3 +1,35 @@
+CREATE DATABASE <some_name>;
+
+CREATE TABLE IF NOT EXISTS client (
+    client_id VARCHAR(100) NOT NULL PRIMARY KEY,
+    client_name VARCHAR(100) NOT NULL
+);
+
+CREATE TYPE animal_type AS ENUM ('cachorro', 'gato');
+CREATE TABLE IF NOT EXISTS animal (
+    animal_id SERIAL NOT NULL PRIMARY KEY,
+    animal_name VARCHAR(100) NOT NULL,
+    animal_age NUMERIC DEFAULT 0,
+    animal_type animal_type,
+    animal_breed VARCHAR(100), 
+    client_id VARCHAR(100) NOT NULL REFERENCES client(client_id)
+);
+
+CREATE TABLE IF NOT EXISTS client_contact (
+	contact_id SERIAL NOT NULL PRIMARY KEY,
+	client_email VARCHAR(100) NOT NULL, 
+	client_whatsapp VARCHAR(100) NOT NULL, 
+	client_id VARCHAR(100) NOT NULL REFERENCES client(client_id)
+);
+
+CREATE TABLE IF NOT EXISTS client_address (
+	address_id SERIAL NOT NULL,
+	street VARCHAR(100) NOT NULL,
+	zipcode VARCHAR(100) NOT NULL,
+	city VARCHAR(100) NOT NULL,
+	client_id VARCHAR(100) NOT NULL REFERENCES client(client_id)
+);
+
 SELECT * FROM client_contact;
 
 SELECT * FROM client ORDER BY client_id ASC;
@@ -28,9 +60,6 @@ VALUES ('Rex Trail', '58804-1099', 'Howemouth', '2'),
 ('Victor Plains', '90566-7771', 'Wisokyburgh', '4'),
 ('Douglas Extension', '59590-4157', 'McKenziehaven', '5'),
 ('Hoeger Mall', '53919-4257', 'South Elvis', '6');
-
-ALTER TABLE animal
-ALTER COLUMN animal_age TYPE NUMERIC;
 
 INSERT INTO animal(animal_name, animal_age, animal_breed, animal_type, client_id)
 VALUES ('Soldier', 1.8, 'Baltic', 'gato', '2'),

@@ -12,6 +12,8 @@ const pool = new Pool({
     database: process.env.PGDATABASE
 })
 
-console.log(`Postgres Connected: ${pool.options.database}`)
+if(pool) {
+    console.log(`Postgres Connected: ${pool.options.database}`)
+}
 
 module.exports = pool
